@@ -1,7 +1,10 @@
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 import useBearStore from "@/libs/store/bearStore";
+
+import viteLogo from "/vite.svg";
+
+import reactLogo from "./assets/react.svg";
+
+import "./App.css";
 
 function App() {
   const bears = useBearStore(state => state.bears);
