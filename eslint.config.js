@@ -10,7 +10,7 @@ export default [
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
-    ignores: ["dist"],
+    ignores: ["dist", ".github", "node_modules", "public", ".husky"],
   },
   {
     files: ["**/*.{ts,tsx}"],
